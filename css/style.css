@@ -284,7 +284,7 @@ a:hover {
 
 .title-box-d .title-d {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .title-box-d .title-d:after {
@@ -1325,14 +1325,26 @@ a:hover {
 
 .card-box-d .card-overlay-hover {
   transition: all .2s ease-in-out;
-  padding: 15px 40px 15px 35px;
+  padding: 15px 15px 15px 15px;
 }
 
 .card-box-d .title-d {
   transition: .3s ease-in-out;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  /* margin: 1rem 0; */
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.card-box-d .subtitle-d {
+  transition: .3s ease-in-out;
+  color: #c7c7c7;
   font-size: 2rem;
-  font-weight: 600;
-  margin: 1rem 0;
+  font-weight: 500;
+  /* margin: 1rem 0; */
   -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
   opacity: 0;
@@ -1340,6 +1352,8 @@ a:hover {
 
 .card-box-d .content-d {
   opacity: 0;
+  font-size: 1rem;
+  color: white;
   transition: .5s ease-in-out;
   -webkit-transform: translateY(-40px);
   transform: translateY(-40px);
@@ -1347,6 +1361,11 @@ a:hover {
 
 .card-box-d .info-agents {
   opacity: 0;
+  border: white solid 0.1rem;
+  padding: 10%;
+  height: 90%;
+  width: 90%;
+  border-radius: 5rem;
   transition: .5s ease-in-out;
 }
 
@@ -1371,6 +1390,7 @@ a:hover {
 }
 
 .card-box-d:hover .title-d,
+.card-box-d:hover .subtitle-d,
 .card-box-d:hover .content-d,
 .card-box-d:hover .info-agents,
 .card-box-d:hover .card-footer-d {
@@ -1761,7 +1781,7 @@ footer .credits {
   }
 
   .card-box-a:hover .card-overlay-a-content {
-    bottom: 60px;
+    bottom: 0px;
   }
 
   .card-box-a:hover .card-body-a {
@@ -1805,7 +1825,7 @@ footer .credits {
   }
 
   .card-box-d .card-overlay-hover {
-    padding: 5px 15px 5px 10px;
+    padding: 5px 5px 5px 5px;
   }
 
   .card-box-d .title-d {
@@ -1813,8 +1833,13 @@ footer .credits {
     margin: .5rem 0;
   }
 
+  .card-box-d .subtitle-d {
+    font-size: 1.1rem;
+    margin: .5rem 0;
+  }
+
   .card-box-d .content-d {
-    font-size: .8rem;
+    font-size: 1rem;
     margin: .5rem 0;
   }
 
@@ -1838,13 +1863,13 @@ footer .credits {
 
 @media (min-width: 768px) and (min-width: 768px) {
   .card-box-a:hover .card-overlay-a-content {
-    bottom: 60px;
+    bottom: 0px;
   }
 }
 
 @media (min-width: 768px) and (min-width: 992px) {
   .card-box-a:hover .card-overlay-a-content {
-    bottom: 64px;
+    bottom: 0px;
   }
 }
 
@@ -1916,10 +1941,15 @@ footer .credits {
   }
 
   .card-box-d .card-overlay-hover {
-    padding: 5px 40px 5px 35px;
+    padding: 10px 10px 10px 10px;
   }
 
   .card-box-d .title-d {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .card-box-d .subtitle-d {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
@@ -1940,18 +1970,36 @@ footer .credits {
 
 @media (min-width: 1200px) {
   .card-box-d .card-overlay-hover {
-    padding: 15px 40px 5px 35px;
+    padding: 15px 15px 15px 15px;
   }
 
   .card-box-d .title-d {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  .card-box-d .subtitle-d {
     font-size: 2rem;
     margin: 1rem 0;
   }
+  .card-box-d .content-d {
+    font-size: 1.5rem;
+  }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 991px) {
   .property-contact {
     margin-top: 2.5rem;
+  }
+  .card-box-d .title-d {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+  .card-box-d .subtitle-d {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  .card-box-d .content-d {
+    font-size: 1rem;
   }
 }
 
@@ -1994,7 +2042,7 @@ footer .credits {
   }
 
   .card-box-a .card-overlay-a-content {
-    bottom: 65px;
+    bottom: 0px;
   }
 
   .card-box-a .card-body-a {
@@ -2020,6 +2068,12 @@ footer .credits {
   }
 
   .box-collapse .title-box-d .title-d {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+  box-collapse .title-box-d .subtitle-d {
+    font-size: 1rem;
+  }
+  .box-collapse .title-box-d .content-d {
+    font-size: 0.8rem;
   }
 }
