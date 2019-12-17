@@ -26,11 +26,16 @@ h6 {
 a {
   color: #000000;
   transition: all .5s ease;
+  letter-spacing: 0.1rem;
 }
 
 a:hover {
-  color: #4b5cff;
+  color: #c7c7c7;
   text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 .link-two {
@@ -81,13 +86,22 @@ a:hover {
 }
 
 .text-brand {
-  color: #000000;
+  color: #4b5cff;
   font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtext-brand {
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .color-a {
   color: #000000;
+}
+
+.color-g {
+  color: #4a4a4a;
 }
 
 .color-r {
@@ -256,10 +270,11 @@ a:hover {
 /*------/ Title /------*/
 
 .title-wrap {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .title-a {
+  color: #4b5cff;
   font-size: 2.6rem;
   font-weight: 600;
 }
@@ -928,7 +943,7 @@ a:hover {
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
   margin-bottom: 1rem;
-  font-size: .9rem;
+  font-size: 1.2rem;
   color: #ffffff;
   letter-spacing: .05em;
 }
@@ -937,8 +952,7 @@ a:hover {
   transition-duration: 9s !important;
   color: #ffffff;
   font-weight: 700;
-  font-size: 2.8rem;
-  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 .intro .intro-subtitle {
@@ -1165,15 +1179,16 @@ a:hover {
   padding: 1rem;
   color: #ffffff;
   position: absolute;
-  bottom: 20px;
+  top: 20px;
   z-index: 2;
 }
 
 .card-header-b .category-b {
-  font-size: .9rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   background-color: #4b5cff;
   padding: .3rem .7rem;
-  color: #313131;
+  color: #ffffff;
   letter-spacing: 0.030em;
   border-radius: 50px;
   text-decoration: none;
@@ -1296,11 +1311,12 @@ a:hover {
 }
 
 .card-header-c {
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 0 0 0 ;
 }
 
 .card-body-c {
   padding: .5rem .5rem 0 .5rem;
+  font-size: 1.2rem;
 }
 
 .card-footer-c {
@@ -1308,8 +1324,7 @@ a:hover {
 }
 
 .card-box-ico {
-  padding: 1rem 3rem 1rem 2.5rem;
-  border: 5px solid #4b5cff;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .card-box-ico span {
@@ -1320,7 +1335,11 @@ a:hover {
 .title-c {
   font-size: 2.5rem;
   font-weight: 600;
-  margin-left: -40px;
+}
+
+.title-f {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 /*======================================
@@ -1416,6 +1435,9 @@ a:hover {
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+.section-about {
+  margin-bottom: 5rem;
+}
 
 .section-about .title-vertical {
   position: absolute;
@@ -1433,6 +1455,7 @@ a:hover {
 .about-img-box {
   padding-left: 1rem;
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .sinse-box {
@@ -1445,8 +1468,9 @@ a:hover {
 
 .sinse-box .sinse-title {
   font-weight: 700;
-  letter-spacing: 0.043em;
+  letter-spacing: 0.1em;
   font-size: 1rem;
+  color: #ffffff;
 }
 
 .sinse-box .sinse-title span {
@@ -1457,7 +1481,7 @@ a:hover {
   content: ' ';
   width: 35px;
   height: 2px;
-  background-color: #000000;
+  background-color: #ffffff;
   position: absolute;
   bottom: -15px;
 }
@@ -1679,7 +1703,7 @@ footer .credits {
 
 @media (min-width: 576px) {
   .intro .intro-title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 
   .intro .intro-subtitle.intro-price {
@@ -1739,16 +1763,16 @@ footer .credits {
   }
 
   .intro .intro-body {
-    padding-left: 2rem;
+    padding-left: 6rem;
   }
 
   .intro .intro-title-top {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
   .intro .intro-title {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 
   .intro .intro-subtitle {
@@ -1809,7 +1833,7 @@ footer .credits {
   }
 
   .card-header-b {
-    bottom: 0px;
+    top: 0px;
   }
 
   .card-header-b .title-2 {
@@ -1826,6 +1850,10 @@ footer .credits {
 
   .title-c {
     font-size: 1.8rem;
+  }
+
+  .title-f {
+    font-size: 1.5rem;
   }
 
   .card-box-d .card-overlay-hover {
@@ -1891,12 +1919,12 @@ footer .credits {
   }
 
   .intro .intro-title-top {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
   }
 
   .intro .intro-title {
-    font-size: 4.5rem;
+    font-size: 2rem;
   }
 
   .intro .intro-subtitle.intro-price {
@@ -1929,7 +1957,7 @@ footer .credits {
   }
 
   .card-header-b {
-    bottom: 20px;
+    top: 20px;
   }
 
   .card-header-b .title-2 {
@@ -1942,6 +1970,10 @@ footer .credits {
 
   .title-c {
     font-size: 2.5rem;
+  }
+
+  .title-f {
+    font-size: 2rem;
   }
 
   .card-box-d .card-overlay-hover {
@@ -2016,6 +2048,10 @@ footer .credits {
 @media (max-width: 767px) {
   .text-brand {
     font-size: 1.8rem;
+  }
+
+  .subtext-brand {
+    font-size: 1.35rem;
   }
 
   .section-t8 {
