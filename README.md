@@ -1,2 +1,2 @@
 # CarePLUS website
-### https://chinancheng.github.io/CareplusWebsite/
+### https://eborboihuc.github.io/CarePLUS/index.html
