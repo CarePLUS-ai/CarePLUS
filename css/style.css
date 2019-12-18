@@ -279,6 +279,13 @@ p {
   font-weight: 600;
 }
 
+.title-as {
+  color: #afafaf;
+  font-size: 1.8rem;
+  padding-left: 10rem;
+  font-weight: 600;
+}
+
 .title-link {
   font-size: 1.2rem;
   font-weight: 300;
@@ -326,7 +333,8 @@ p {
 
 .table-cell {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
+  padding-bottom: 5rem;
 }
 
 /*------/ Ul Resect /------*/
@@ -1324,7 +1332,8 @@ p {
 }
 
 .card-box-ico {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  text-align: center;
 }
 
 .card-box-ico span {
@@ -1338,8 +1347,15 @@ p {
 }
 
 .title-f {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
+  padding-top: 1rem;
+}
+
+.title-g {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-top: 1rem;
 }
 
 /*======================================
@@ -1697,13 +1713,13 @@ footer .credits {
 }
 
 .btn.btn-b-n:hover {
-  background-color: #26a356;
+  background-color: #4b5cff;
   color: #ffffff;
 }
 
 @media (min-width: 576px) {
   .intro .intro-title {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
   }
 
   .intro .intro-subtitle.intro-price {
@@ -1772,7 +1788,7 @@ footer .credits {
   }
 
   .intro .intro-title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .intro .intro-subtitle {
@@ -1792,7 +1808,7 @@ footer .credits {
   .grid .card-box-b,
   .grid .card-box-c,
   .grid .card-box-d {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   .card-box-a:hover .img-a,
@@ -1853,7 +1869,7 @@ footer .credits {
   }
 
   .title-f {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .card-box-d .card-overlay-hover {
@@ -1973,7 +1989,7 @@ footer .credits {
   }
 
   .title-f {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .card-box-d .card-overlay-hover {
@@ -2078,7 +2094,7 @@ footer .credits {
   .card-box-b,
   .card-box-c,
   .card-box-d {
-    margin-bottom: 2.5rem;
+    margin-bottom: .5rem;
   }
 
   .card-box-a .card-overlay-a-content {
@@ -2094,11 +2110,33 @@ footer .credits {
   }
 
   .card-box-c {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
 
   .card-body-c {
     padding: 0;
+  }
+
+  .intro .intro-title {
+    font-size: 1rem;
+  }
+
+  .title-a {
+    font-size: 2rem;
+  }
+
+  .title-as {
+    font-size: 1.2rem;
+    padding-left: 3rem;
+  }
+
+  .card-box-ico {
+    padding-bottom: 0rem;
+    text-align: center;
+  }
+
+  .intro-single .title-single-box .title-single {
+    font-size: 1.5rem;
   }
 }
 
@@ -2115,5 +2153,31 @@ footer .credits {
   }
   .box-collapse .title-box-d .content-d {
     font-size: 0.8rem;
+  }
+
+  .intro .intro-title {
+    font-size: 1.2rem;
+  }
+
+  .title-a {
+    font-size: 1.5rem;
+  }
+
+  .title-as {
+    font-size: .9rem;
+    padding-left: 1rem;
+  }
+
+  .text-brand {
+    font-size: 1rem;
+  }
+
+  .intro-single .title-single-box .title-single {
+    font-size: 1.5rem;
+  }
+
+  .card-box-ico {
+    padding-bottom: 0rem;
+    text-align: center;
   }
 }
