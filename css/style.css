@@ -279,13 +279,6 @@ p {
   font-weight: 600;
 }
 
-.title-as {
-  color: #afafaf;
-  font-size: 1.8rem;
-  padding-left: 10rem;
-  font-weight: 600;
-}
-
 .title-link {
   font-size: 1.2rem;
   font-weight: 300;
@@ -1448,6 +1441,40 @@ p {
   margin-right: 1.5rem;
 }
 
+.icon-hover p {
+  color: #ffffff;
+  background-color: #5c5c5c;
+  opacity: 0;
+}
+.icon-hover:hover img,  .icon-hover:hover h2{
+  opacity: 0!important;
+  cursor: pointer;
+}
+
+.icon-hover:hover p{
+  opacity: 0.8;
+}
+
+#panorama:hover {
+  background-image: url(../img/panorama-hover.png);
+  background-size: 100%;
+}
+
+#privacy:hover {
+  background-image: url(../img/privacy-hover.png);
+  background-size: 100%;
+}
+
+#voice:hover {
+  background-image: url(../img/voice-hover.png);
+  background-size: 100%;
+}
+
+#summary:hover {
+  background-image: url(../img/summary-hover.png);
+  background-size: 100%;
+}
+
 /*======================================
 //--//-->   ABOUT
 ======================================*/
@@ -2125,11 +2152,6 @@ footer .credits {
     font-size: 2rem;
   }
 
-  .title-as {
-    font-size: 1.2rem;
-    padding-left: 3rem;
-  }
-
   .card-box-ico {
     padding-bottom: 0rem;
     text-align: center;
@@ -2161,11 +2183,6 @@ footer .credits {
 
   .title-a {
     font-size: 1.5rem;
-  }
-
-  .title-as {
-    font-size: .9rem;
-    padding-left: 1rem;
   }
 
   .text-brand {
