@@ -720,6 +720,10 @@ p {
   filter: alpha(opacity=1);
 }
 
+.navbar-container {
+  max-width: none;
+}
+
 /*------/ Hamburger Navbar /------*/
 
 .navbar-toggler {
