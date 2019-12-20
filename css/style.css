@@ -124,6 +124,10 @@ p {
   margin: 0;
 }
 
+.card-box-tech img{
+  width: 80%;
+}
+
 /*------/ Nav Pills  /------*/
 
 .nav-pills-a.nav-pills .nav-link {
@@ -261,6 +265,10 @@ p {
 
 .section-b2 {
   padding-bottom: 2rem;
+}
+
+.section-b3 {
+  padding-bottom: 3rem;
 }
 
 .section-tb85 {
@@ -995,6 +1003,32 @@ p {
   padding-left: 0;
 }
 
+.intro-single-f {
+  padding: 4rem 0 3rem;
+}
+
+.intro-single-f .title-single-box {
+  padding: 1rem 0 1rem 2rem;
+}
+
+.intro-single-f .title-single-box {
+  border-left: 3px solid #4b5cff;
+}
+
+.intro-single-f .title-single-box .title-single {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.intro-single-f .breadcrumb-box {
+  padding: 1rem 0 0 .5rem;
+}
+
+.intro-single-f .breadcrumb {
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+}
 /*======================================
 //--//-->   CARD GENERAL
 ======================================*/
@@ -1441,22 +1475,32 @@ p {
   margin-right: 1.5rem;
 }
 
+.card-box-ico p {
+  font-size: 1.2rem;
+}
+
 .icon-hover p {
   color: #ffffff;
-  background-color: #5c5c5c;
+  background-color: rgba(100, 100, 100, 0.5);
   opacity: 0;
 }
+
 .icon-hover:hover img,  .icon-hover:hover h2{
   opacity: 0!important;
   cursor: pointer;
 }
 
 .icon-hover:hover p{
-  opacity: 0.8;
+  opacity: 1.0;
 }
 
 #panorama:hover {
   background-image: url(../img/panorama-hover.png);
+  background-size: 100%;
+}
+
+#extendable:hover {
+  background-image: url(../img/extendable-hover.png);
   background-size: 100%;
 }
 
@@ -1475,6 +1519,10 @@ p {
   background-size: 100%;
 }
 
+#personal:hover {
+  background-image: url(../img/personal-hover.png);
+  background-size: 100%;
+}
 /*======================================
 //--//-->   ABOUT
 ======================================*/
@@ -1483,6 +1531,19 @@ p {
 }
 
 .section-about .title-vertical {
+  position: absolute;
+  letter-spacing: 0;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  top: 50px;
+  text-align: left;
+  font-size: 1.8rem;
+  width: 300px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.section-goal .title-vertical {
   position: absolute;
   letter-spacing: 0;
   -webkit-transform: rotate(-90deg);
@@ -1831,6 +1892,9 @@ footer .credits {
     font-size: 2.1rem;
   }
 
+  .intro-single-f .title-single-box .title-single {
+    font-size: 2.1rem;
+  }
   .grid .card-box-a,
   .grid .card-box-b,
   .grid .card-box-c,
@@ -1978,6 +2042,10 @@ footer .credits {
     font-size: 2.5rem;
   }
 
+  .intro-single-f .title-single-box .title-single {
+    font-size: 2.5rem;
+  }
+
   .card-box-a .price-a,
   .card-box-b .price-a {
     font-size: 1rem;
@@ -2080,6 +2148,10 @@ footer .credits {
   .card-box-d .content-d {
     font-size: 1rem;
   }
+
+  .card-box-tech img{
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2115,6 +2187,10 @@ footer .credits {
 
   .intro-single {
     padding-top: 9rem;
+  }
+
+  .intro-single-f {
+    padding-top: 3rem;
   }
 
   .card-box-a,
@@ -2159,6 +2235,14 @@ footer .credits {
 
   .intro-single .title-single-box .title-single {
     font-size: 1.5rem;
+  }
+
+  .intro-single-f .title-single-box .title-single {
+    font-size: 2rem;
+  }
+
+  .card-box-tech img{
+    width: 75%;
   }
 }
 
