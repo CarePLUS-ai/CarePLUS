@@ -1,2 +1,2 @@
 # CarePLUS website
-### https://eborboihuc.github.io/CarePLUS/index.html
+### https://careplus-ai.github.io/CarePLUS/index.html
